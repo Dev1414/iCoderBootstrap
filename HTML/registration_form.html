@@ -1,0 +1,57 @@
+<h1>Race Registration!</h1>
+<form action="">
+    <div>
+        <label for="first">First Name</label>
+        <input type="text" id="first" name="first_name" required>
+
+        <label for="second">Second Name</label>
+        <input type="text" id="second" name="second_name" required>
+    </div>
+    
+    <p>Select a Race</p>
+    <div>
+        <input type="radio" name="fun_run" id="race" value="funrun">
+        <label for="race">Fun Run 5k</label><br>
+    </div>
+
+    <div>
+        <input type="radio" name="half_marathon" id="half" value="half_marathon">
+        <label for="half">Half Marathon</label><br>
+    </div>
+
+    <div>
+        <input type="radio" name="full_marathon" id="full" value="full_marathon">
+        <label for="full">Full Marathon</label>
+    </div>
+
+
+    <label for="email">Email</label>
+    <input id="email" type="email" required>
+
+    <label for="password">Password</label>
+    <input id="password" type="password" required>
+    </p>
+
+    <p>
+        <label for="age_group">Select Age Group</label>
+        <select id="age_group" name="age_group">
+            <option value="">under 18</option>
+            <option value="">18-30</option>
+            <option value="">30-50</option>
+            <option value="">50+</option>
+        </select>
+    </p>
+
+    <button>Register</button>
+
+    <p>
+        <label for="xs">XS:</label>
+        <input type="radio" name="size" id="xs" value="extra small">
+
+        <label for="s"> S:</label>
+        <input type="radio" name="size" id="s" value="small">
+
+        <label for="m">M:</label>
+        <input type="radio" name="size" id="m" value="medium">
+    </p>
+</form>
